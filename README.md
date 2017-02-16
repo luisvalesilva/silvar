@@ -16,8 +16,6 @@ devtools::install_github("luisvalesilva/silvar")
 
 #### Docs
 
-Use the package GitHub [repo](https://github.com/luisvalesilva/silvar) and the
-[documentation website](http://www.nyu.edu/projects/hochwagen/hwglabr_docs/).
 Function documentation is accessible within R in the standard way, by typing one
 of the following:
 
