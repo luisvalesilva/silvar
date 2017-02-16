@@ -1,0 +1,10 @@
+Package: silvar
+Title: My personal R package
+Version: 0.0.0.9000
+Authors@R: person("Luis", "Vale Silva", email = "luisvalesilva@gmail.com", role = c("aut", "cre"))
+Description: Miscellaneous R functions I like to keep at hand.
+Depends: R (>= 3.2.5)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
