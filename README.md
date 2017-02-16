@@ -1,5 +1,3 @@
-[![Travis-CI Build Status](https://travis-ci.org/hochwagenlab/hwglabr.svg?branch=master)](https://travis-ci.org/hochwagenlab/hwglabr)
-
 # silvar
 ### My personal R package
 
