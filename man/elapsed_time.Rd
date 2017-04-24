@@ -10,9 +10,12 @@ elapsed_time(t0)
 \item{t0}{Output of \code{proc.time}, either all elements or just element "elapsed".
 No default.}
 }
+\value{
+Elapsed time as a \code{string}.
+}
 \description{
-Given a time stamp generated with \code{proc.time}, returns elapsed time as a \code{string}
-in sec., min. or hrs, as appropriate.
+Given a time stamp generated with \code{proc.time}, returns elapsed time in sec.,
+min. or hrs, as appropriate.
 }
 \examples{
 start <- proc.time()

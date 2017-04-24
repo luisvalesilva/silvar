@@ -1,9 +1,10 @@
 #' Returns elapsed time
 #'
-#' Given a time stamp generated with \code{proc.time}, returns elapsed time as a \code{string}
-#' in sec., min. or hrs, as appropriate.
+#' Given a time stamp generated with \code{proc.time}, returns elapsed time in sec.,
+#' min. or hrs, as appropriate.
 #' @param t0 Output of \code{proc.time}, either all elements or just element "elapsed".
 #' No default.
+#' @return Elapsed time as a \code{string}.
 #' @examples
 #' start <- proc.time()
 #' elapsed_time(t0=start)
