@@ -1,7 +1,7 @@
 #' Returns elapsed time
 #'
-#' Given a time stamp generated with \code{proc.time}, returns elapsed time in sec.,
-#' min. or hrs, as appropriate, using \code{message}.
+#' Given a time stamp generated with \code{proc.time}, returns elapsed time as a \code{string}
+#' in sec., min. or hrs, as appropriate.
 #' @param t0 Output of \code{proc.time}, either all elements or just element "elapsed".
 #' No default.
 #' @examples
@@ -20,10 +20,11 @@ elapsed_time <- function(t0){
   
   # Convert to appropriate unit
   if (elapsed_time < 60) {
-    message(round(elapsed_time, 1), " sec.")
+    elapsed_time <- paste0(round(elapsed_time, 1), " sec.")
   } else if (elapsed_time >= 60 & elapsed_time < 3600) {
-    message(round(elapsed_time / 60, 1), " min.")
+    elapsed_time <- paste0(round(elapsed_time / 60, 1), " min.")
   } else {
-    message(round(elapsed_time / 60 / 60, 1), " h.")
+    elapsed_time <- paste0(round(elapsed_time / 60 / 60, 1), " h.")
   }
+  return(elapsed_time)
 }

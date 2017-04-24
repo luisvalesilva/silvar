@@ -11,8 +11,8 @@ elapsed_time(t0)
 No default.}
 }
 \description{
-Given a time stamp generated with \code{proc.time}, returns elapsed time in sec.,
-min. or hrs, as appropriate, using \code{message}.
+Given a time stamp generated with \code{proc.time}, returns elapsed time as a \code{string}
+in sec., min. or hrs, as appropriate.
 }
 \examples{
 start <- proc.time()
