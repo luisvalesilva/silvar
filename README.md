@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/luisvalesilva/silvar.svg?branch=master)](https://travis-ci.org/luisvalesilva/silvar)
 
+[![codecov](https://codecov.io/github/luisvalesilva/silvar/branch/master/graphs/badge.svg)](https://codecov.io/github/luisvalesilva/silvar)
+
 # silvar
 ### My personal R package
 
