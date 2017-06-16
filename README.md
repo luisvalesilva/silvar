@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/luisvalesilva/silvar.svg?branch=master)](https://travis-ci.org/luisvalesilva/silvar)
+
 # silvar
 ### My personal R package
 
