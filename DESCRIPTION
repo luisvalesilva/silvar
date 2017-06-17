@@ -1,6 +1,6 @@
 Package: silvar
 Title: My personal R package
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: person("Luis", "Vale Silva", email = "luisvalesilva@gmail.com", role = c("aut", "cre"))
 Description: Miscellaneous R functions I like to keep at hand.
 Depends: R (>= 3.2.5)
