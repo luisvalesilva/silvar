@@ -16,6 +16,9 @@ devtools::install_github("luisvalesilva/silvar")
 
 #### Docs
 
+You can find the documentation website at 
+[luisvalesilva.com/silvar](http://luisvalesilva.com/silvar).
+
 Function documentation is accessible within R in the standard way, by typing one
 of the following:
 
