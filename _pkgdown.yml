@@ -1,0 +1,5 @@
+url: http://luisvalesilva.com/silvar
+
+template:
+  params:
+    bootswatch: cosmo
